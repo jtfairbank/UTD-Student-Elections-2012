@@ -5,8 +5,63 @@
 <head>
     <!-- TODO: update titles -->
     <title>Student Elections 2012 Home</title>
+
+    <link rel="stylesheet" href="css/orbit-1.4.0.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/common.css" />
+    <style>
+        #images .img-wrap {
+            /* auto center */
+            text-align: center;
+
+            /* background to prevent other images from being seen */
+            width: 900px;
+            height: 560px; /* golden ratio: 900 / 1.6 = 560 */
+            background-color: #FFFFFF;
+        }
+        #images img {
+            /* images need to be explicitly told not to overflow
+             * so they will auto-adjust size
+             */
+            max-width: 900px;
+            max-height: 560px; /* golden ratio: 900 / 1.6 = 560 */
+        }
+    </style>
+
+    <script src="js/jquery/jquery-1.7.1.min.js"></script>
+    <script src="js/jquery/orbit-1.4.0.js"></script>
+    <script>
+        $(function() {
+            var images = [ 13, 11, 8, 10, 7, 5, 3, 15, 17, 21, 22, 24  ];
+
+            // load in images
+            for ( var i = 0; i < images.length; i++ ) {
+                var img_wrap = $('<div class="img-wrap"><img src="images/index/' + images[i] + '.jpg" alt="UT Dallas SAVE Members" /></div>');
+                $(img_wrap).appendTo("#images");
+                
+                // center vertically
+                $(img_wrap).children().each(function() {
+                    $(this).load(function() {
+                        var height_diff = 560 - $(this).height();
+                        $(this).css('margin-top', height_diff/2 + 'px');
+                    });
+                });
+            }
+            
+            $("#images").orbit({
+                // slide transistions
+                advanceSpeed: 4000, // 4000 = default
+                animationSpeed: 300,
+                /*
+                // fade transitions
+                advanceSpeed: 4000, // 4000 = defualt
+                animationSpeed: 750,
+                animation: 'fade',
+                */
+                startClockOnMouseOut: true
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -20,9 +75,7 @@
                 <ul>
                     <li><a href="index.html" class="current">Home</a></li>
                     <li><a href="platform.html">Platform</a></li>
-                    <!--
                     <li><a href="candidates.html">Candidates</a></li>
-                    -->
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav>
@@ -35,7 +88,8 @@
         <div class="main content-wrapper">
             <div class="main content">
                 
-                <!-- TODO: content goes here -->
+                <section id="images">
+                </section>
                 
             </div>
         </div>
