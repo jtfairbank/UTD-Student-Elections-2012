@@ -2,6 +2,11 @@ html, body {
     height: 100%;
 }
 
+/* sticky footer wrapper */
+#wrap {
+    min-height: 100%;
+}
+
 /* main navigation */
 header.main {
     /* expand then auto center */
@@ -10,14 +15,14 @@ header.main {
     max-width: 1240px;
     min-width: 600px;
 
-    padding-bottom: 40px;
+    padding-bottom: 2.5em;
 
     font-family: sans-serif;
 }
 
 header.main nav {
     max-width: 1200px;
-    padding: 20px 20px 0px 20px;
+    padding: 1.25em 1.25em 0px 1.25em;
 }
 
 header.main nav a.logo {
@@ -34,7 +39,7 @@ header.main nav ul {
 header.main nav ul li {
     float: left;
     
-    padding: 20px 25px 20px 0px;
+    padding: 1.25em 1.5em 1.25em 0px;
 }
 header.main nav ul li a {
     padding: 2px 0px 1px 5px;
@@ -73,58 +78,46 @@ header.main hgroup h1 strong {
 .main.content-wrapper {
     /* auto center */
     margin: 0 auto;
-    width: 900px;
+    width: 1000px;
 
     /* sticky footer */
     padding-bottom: 78px;
 }
 
-.main.content section {
+.main.content > * { /* all direct children */
     margin-bottom: 20px;
 }
-.main.content section:last-child {
+.main.content > *:last-child { /* last direct child */
     margin-bottom: 0px;
 }
-.main.content section h1 {
+.main.content > * > header {
+    border-bottom: 2px solid #008542;
+    margin-bottom: 5px;
+}
+.main.content > * > header > h1 { /* main h1 for each .main.content element */
     color: #E98300;
     font-size: 1.5em;
 }
 
-.main.content section .content {
-    border-top: 2px solid #008542;
-    padding-top: 5px;
-
+/* .main.content .content = content portion of each .main.content element */
+.main.content .content {
     color: #444444;
     line-height: 1.25em;
     text-align: justify;
     font-family: sans-serif;
 }
-.main.content section .content p {
-   padding-bottom: 20px;
+.main.content .content > * {
+   margin-bottom: 20px;
 }
-.main.content section .content p:last-child {
-    padding-bottom: 0px;
+.main.content .content > *:last-child {
+    margin-bottom: 0px;
 }
-.main.content section .content h1 {
-    border: 0px;
-
-    color: #444444;
-    font-size: 1em;
-    line-height: 1.25em;
-    font-weight: bold;
-    text-align: justify;
-}
-.main.content section .content a.mail {
+.main.content .content a {
     color: #008542;
     text-decoration: none;
 }
-.main.content section .content a.mail:hover {
+.main.content .content a:hover {
     text-decoration: underline;
-}
-
-/* sticky footer wrapper */
-#wrap {
-    min-height: 100%;
 }
 
 /* main footer */
@@ -137,7 +130,7 @@ footer.main {
     margin-top: -78px; /* height of footer */
     clear: both;
 
-    padding: 40px 0px 20px 0px;
+    padding: 2.5em 0px 1.25em 0px;
 
     color: #444444;
     font-family: sans-serif;
