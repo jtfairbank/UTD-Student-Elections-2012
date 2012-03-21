@@ -32,14 +32,6 @@
         "bio":   "Shawn Orliss is running for a Senior Senator position representing the School of Economic, Political and Policy Sciences. He is majoring in Economics and Finance, and is a member of Sigma Alpha Epsilon, an Orientation Team Mentor and an employee at the University of Texas at Dallas's Activity Center. Shawn is running for Senate in order to help influence the growth and expansion of the university to the best of his ability for the student body as a whole."
     },
     {
-        "name":  "Scott Jones",
-        "pos":   "Junior Senator",
-        "dept":  "Engineering and Computer Science",
-        "img":   "jones.jpg",
-        "email": "Scott.Jones1@utdallas.edu",
-        "bio":   "Scott Jones is running for a junior senator position representing Engineering and Computer Science. He is majoring in Mechanical Engineering, and is involved in Chi Phi, Fellowship of Christian University Students, and the Terry Scholars Organization. Scott is running for Senate because he wants UT Dallas to retain its smaller university feel while expanding greatly."
-    },
-    {
         "name":  "Nikki Kanthety",
         "pos":   "Junior Senator",
         "dept":  "School of Natural Science and Mathematics",
@@ -70,14 +62,6 @@
         "img":   "sohns.jpg",
         "email": "eas105020@utdallas.edu",
         "bio":   "Elizabeth Sohns is running for a junior senator position representing the School of Management. She is majoring in Global Business and minoring in Political Science. Elizabeth is a member of the NCAA Women's Soccer team, the Pre-Law Society, FOCUS, Delta Epsilon Iota Society, and the CV Honors Program. She is also a PLTL Leader for Calculus. Elizabeth is running for Student Government to help UT Dallas continue to grow to its full potential and establish lasting traditions. She is currently serving as a Sophomore Senator on the Communications Committee, and has also had experience with the Activity Center Committee as well as the UT Dallas Ring Committee."
-    },
-    {
-        "name":  "Alejandro Chinchilla",
-        "pos":   "Junior Senator",
-        "dept":  "Arts and Humanities",
-        "img":   "chinchilla.jpg",
-        "email": "ajc090220@utdallas.edu",
-        "bio":   "Alejandro Chinchilla is running for a (junior senator position representing Arts and Humanities). He is majoring in History and is involved in UTD Rugby, Sigma Alpha Epsilon, First Year Leader, and Orientation Team Mentor, Alejandro Chinchilla is running for Senate in order to help accommodate students needs. Alejandro Chinchilla's previous senate experience includes 1 full term his Sophomore year."
     },
     {
         "name":  "Max Grunewald",
