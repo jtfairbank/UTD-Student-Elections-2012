@@ -3,7 +3,7 @@
         "name":  "Rajiv Dwivedi",
         "pos":   "President",
         "dept":  "",
-        "img":   ".jpg",
+        "img":   "dwivedi.jpg",
         "email": "rxd099120@utdallas.edu",
         "bio":   "Raj(iv) Dwivedi is running for President. Majoring in Chemistry, he will be classified a junior starting this fall.  He is currently involved with the Chi Phi fraternity and the Orientation Team Mentors program. He also serves as a student worker at the Student Union at UT Dallas. He wishes to help expand the various services at UT Dallas including the Comet discount program, transportation, food options, internet etc. He has served on senate for the term 2010-2011 as the Legislative Affairs Chair serving on multiple university wide committees."
     },
@@ -67,7 +67,7 @@
         "name":  "Max Grunewald",
         "pos":   "Sophomore Senator",
         "dept":  "Undeclared",
-        "img":   ".jpg",
+        "img":   "grunewald.jpg",
         "email": "max.grunewald@utdallas.edu",
         "bio":   "Max Grunewald is running for a sophomore senate position representing undeclared students. He is interested in studying energy infrastructure and development in Southeast Asia. Currently, he is involved in Pi Kappa Phi as a founding father and a member of its executive board, the UTD debate team, and Students for Environmental Awareness. He is running for a senate seat to appease the political aspirations of his former life in which he wore a large top hat, expanded railway throughout the East and West, and ended slavery between the North and the South."
     },
@@ -82,8 +82,8 @@
     {
         "name":  "Kaleena Thai",
         "pos":   "Sophomore Senator",
-        "dept":  "",
-        "img":   ".jpg",
+        "dept":  "Schools of Biology and Business Administration",
+        "img":   "thai.jpg",
         "email": "kxt109020@utdallas.edu",
         "bio":   "Kaleena Thai is running for a sophomore senator position in Student Government. She is majoring in both Biology and Business Administration. She is involved in Alpha Epsilon Delta, The Filipino Student Association, and The Academic Bridge Program. Kaleena is running for senator to ensure that every student has a voice in shaping UT Dallas. She is currently serving as a Freshman Senator on the Student Affairs Committee."
     }
