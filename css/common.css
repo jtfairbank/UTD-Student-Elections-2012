@@ -41,6 +41,9 @@ header.main nav ul li {
     
     padding: 1.25em 1.5em 1.25em 0px;
 }
+header.main nav ul li:last-child {
+    padding-right: 0px;
+}
 header.main nav ul li a {
     padding: 2px 0px 1px 5px;
     
@@ -54,8 +57,11 @@ header.main nav ul li a:hover {
 header.main nav ul li a.current {
     color: #008542;
 }
-header.main nav ul li:last-child {
-    padding-right: 0px;
+header.main nav ul li.facebook {
+    padding: .75em 1.5em .75em 0px;
+}
+header.main nav ul li.facebook a:hover {
+    border-left: none;
 }
 
 header.main hgroup {
