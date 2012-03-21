@@ -1,0 +1,6 @@
+#objectives .content ul li {
+    padding-bottom: 10px;
+}
+#objectives .content ul li:last-child {
+    padding-bottom: 0px;
+}

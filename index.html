@@ -6,62 +6,9 @@
     <!-- TODO: update titles -->
     <title>Student Elections 2012 Home</title>
 
-    <link rel="stylesheet" href="css/orbit-1.4.0.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/common.css" />
-    <style>
-        #images .img-wrap {
-            /* auto center */
-            text-align: center;
-
-            /* background to prevent other images from being seen */
-            width: 1000px;
-            height: 625px; /* golden ratio: width / 1.6 = height */
-            background-color: #FFFFFF;
-        }
-        #images img {
-            /* images need to be explicitly told not to overflow
-             * so they will auto-adjust size
-             */
-            max-width: 1000px;
-            max-height: 625px; /* golden ratio: width / 1.6 = height */
-        }
-    </style>
-
-    <script src="js/jquery/jquery-1.7.1.min.js"></script>
-    <script src="js/jquery/orbit-1.4.0.js"></script>
-    <script>
-        $(function() {
-            var images = [ 13, 11, 8, 10, 7, 5, 3, 15, 17, 21, 22, 24  ];
-
-            // load in images
-            for ( var i = 0; i < images.length; i++ ) {
-                var img_wrap = $('<div class="img-wrap"><img src="images/index/' + images[i] + '.jpg" alt="UT Dallas SAVE Members" /></div>');
-                $(img_wrap).appendTo("#images");
-                
-                // center vertically
-                $(img_wrap).children().each(function() {
-                    $(this).load(function() {
-                        var height_diff = 560 - $(this).height();
-                        $(this).css('margin-top', height_diff/2 + 'px');
-                    });
-                });
-            }
-            
-            $("#images").orbit({
-                // slide transistions
-                advanceSpeed: 4000, // 4000 = default
-                animationSpeed: 300,
-                /*
-                // fade transitions
-                advanceSpeed: 4000, // 4000 = defualt
-                animationSpeed: 750,
-                animation: 'fade',
-                */
-                startClockOnMouseOut: true
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
@@ -90,10 +37,31 @@
     
         <div class="main content-wrapper">
             <div class="main content">
-                
-                <section id="images">
+
+                <section id="mission">
+                    <header>
+                        <h1>Mission Statement</h1>
+                    </header>
+                    <div class="content">
+                        <p>The ultimate goal of SAVE is to ensure that the ongoing growth at UT Dallas occurs in the best manner possible for the student population at UT Dallas. To accomplish this, SAVE will adhere to two overarching policy objectives. First, we promise to aggressively pursue student input and work to create a dynamic new relationship between the student body and its elected representatives in student government. Second, we promise to staunchly represent the opinions of the student body to administrators, legislatures, and the Richardson community.</p>
+                        <p></p>
+                    </div>
                 </section>
-                
+                                
+                <section id="objectives">
+                    <header>
+                        <h1>Objectives</h1>
+                    </header>
+                    <div class="content">
+                        <ul>
+                            <li>To ensure smooth functioning of the senate.</li>
+                            <li>To defend the referenda.</li>
+                            <li>To recognize and accomodate student concerns.</li>
+                            <li>To provide the student body diverse food options, late night food options, frequent buses to nearby areas, supporting veteran services on campus, more recycling bins and exapnding other sustainability measures on campus, make meal plans more affordable, better internet on campus, expanding on-campus housing, reaching out to the Richardson community and many more!!</li>
+                        </ul>
+                    </div>
+                </section>
+                                
             </div>
         </div>
     </div>
