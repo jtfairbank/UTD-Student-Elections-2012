@@ -64,9 +64,17 @@
         "bio":   "Elizabeth Sohns is running for a junior senator position representing the School of Management. She is majoring in Global Business and minoring in Political Science. Elizabeth is a member of the NCAA Women's Soccer team, the Pre-Law Society, FOCUS, Delta Epsilon Iota Society, and the CV Honors Program. She is also a PLTL Leader for Calculus. Elizabeth is running for Student Government to help UT Dallas continue to grow to its full potential and establish lasting traditions. She is currently serving as a Sophomore Senator on the Communications Committee, and has also had experience with the Activity Center Committee as well as the UT Dallas Ring Committee."
     },
     {
+        "name":  "Rachel Doren",
+        "pos":   "Junior Senator",
+        "dept":  "School of Behavioral and Brain Sciences",
+        "img":   "doren.jpg",
+        "email": "",
+        "bio": "Rachel Doren is running for a junior senator position representing the School of Behavioral and Brain Sciences. She is double majoring is Psychology and Arts and Performance. Rachel is a volunteer assistant in Dr. Noah Sasson’s Development of Social Cognition Lab, president of the UTD Slam Poetry Team and is involved with the 21st Century Live Arts Society, Dance Club, and the Psychology Coalition. Rachel Doren is running for Senate to help represent the creative talents and outlets of individuals on campus and make the 'UTD college experience' more exciting and personally fulfilling."
+    },
+    {
         "name":  "Max Grunewald",
         "pos":   "Sophomore Senator",
-        "dept":  "Undeclared",
+        "dept":  "",
         "img":   "grunewald.jpg",
         "email": "max.grunewald@utdallas.edu",
         "bio":   "Max Grunewald is running for a sophomore senate position representing undeclared students. He is interested in studying energy infrastructure and development in Southeast Asia. Currently, he is involved in Pi Kappa Phi as a founding father and a member of its executive board, the UTD debate team, and Students for Environmental Awareness. He is running for a senate seat to appease the political aspirations of his former life in which he wore a large top hat, expanded railway throughout the East and West, and ended slavery between the North and the South."
@@ -74,7 +82,7 @@
     {
         "name":  "Liza Liberman",
         "pos":   "Sophomore Senator",
-        "dept":  "EPPS",
+        "dept":  "",
         "img":   "liberman.jpg",
         "email": "exl110330@utdallas.edu",
         "bio":   "Liza Liberman is running for a sophomore senator position representing EPPS. She is majoring in political science, and is involved in Delta Delta Delta sorority, political science club,and the pre-law society. Liza is running for Senate to help insure that the opinions and voices of UTD students are heard. Her previous senate experience includes being a Freshman Senator on the Academic Affairs Committee."
@@ -82,7 +90,7 @@
     {
         "name":  "Kaleena Thai",
         "pos":   "Sophomore Senator",
-        "dept":  "Schools of Biology and Business Administration",
+        "dept":  "",
         "img":   "thai.jpg",
         "email": "kxt109020@utdallas.edu",
         "bio":   "Kaleena Thai is running for a sophomore senator position in Student Government. She is majoring in both Biology and Business Administration. She is involved in Alpha Epsilon Delta, The Filipino Student Association, and The Academic Bridge Program. Kaleena is running for senator to ensure that every student has a voice in shaping UT Dallas. She is currently serving as a Freshman Senator on the Student Affairs Committee."
