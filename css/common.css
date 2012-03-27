@@ -12,16 +12,19 @@ header.main {
     /* expand then auto center */
     margin: 0 auto;
     width: 100%;
-    max-width: 1240px;
-    min-width: 600px;
+    max-width: 1000px;
+    min-width: 750px;
 
-    padding-bottom: 2.5em;
+    padding-bottom: 1.25em;
 
     font-family: sans-serif;
 }
 
 header.main nav {
-    max-width: 1200px;
+    /* recognize floated content */
+    width: 100%;
+    float: left;
+
     padding: 1.25em 1.25em 0px 1.25em;
 }
 
@@ -38,7 +41,7 @@ header.main nav ul {
 }
 header.main nav ul li {
     float: left;
-    
+
     padding: 1.25em 1.5em 1.25em 0px;
 }
 header.main nav ul li:last-child {
@@ -46,7 +49,7 @@ header.main nav ul li:last-child {
 }
 header.main nav ul li a {
     padding: 2px 0px 1px 5px;
-    
+
     color: #E98300;
     text-decoration: none;
 }
@@ -58,7 +61,7 @@ header.main nav ul li a.current {
     color: #008542;
 }
 header.main nav ul li.facebook {
-    padding: .75em 1.5em .75em 0px;
+    padding-top: .75em;
 }
 header.main nav ul li.facebook a:hover {
     border-left: none;
@@ -69,11 +72,13 @@ header.main hgroup {
     margin: 0 auto;
     width: 712px;
 
+    padding-top: 1.25em;
+
     clear: both;
 }
 header.main hgroup h1 {
     color: #E98300;
-    font-size: 32px;
+    font-size: 2em;
 }
 header.main hgroup h1 strong {
     color: #008542;
@@ -84,10 +89,14 @@ header.main hgroup h1 strong {
 .main.content-wrapper {
     /* auto center */
     margin: 0 auto;
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 750px;
 
     /* sticky footer */
     padding-bottom: 78px;
+}
+.main.content {
+   margin: 0px 1.25em;
 }
 
 .main.content > * { /* all direct children */
