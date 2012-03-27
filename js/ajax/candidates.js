@@ -68,7 +68,7 @@
         "pos":   "Junior Senator",
         "dept":  "School of Behavioral and Brain Sciences",
         "img":   "doren.jpg",
-        "email": "",
+        "email": "red102020@utdallas.edu",
         "bio": "Rachel Doren is running for a junior senator position representing the School of Behavioral and Brain Sciences. She is double majoring is Psychology and Arts and Performance. Rachel is a volunteer assistant in Dr. Noah Sasson’s Development of Social Cognition Lab, president of the UTD Slam Poetry Team and is involved with the 21st Century Live Arts Society, Dance Club, and the Psychology Coalition. Rachel Doren is running for Senate to help represent the creative talents and outlets of individuals on campus and make the 'UTD college experience' more exciting and personally fulfilling."
     },
     {
