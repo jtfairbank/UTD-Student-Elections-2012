@@ -60,6 +60,10 @@ header.main nav ul li a:hover {
 header.main nav ul li a.current {
     color: #008542;
 }
+header.main nav ul li.vote a {
+   padding-right: 5px;
+   border-bottom: 1px solid #E98300;
+}
 header.main nav ul li.facebook {
     padding-top: .75em;
 }
