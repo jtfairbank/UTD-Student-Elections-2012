@@ -37,18 +37,17 @@ header.main nav a.logo img {
 
 header.main nav ul {
     float: right;
-    margin-top: 24px; /* vertically center menu with logo */
 }
 header.main nav ul li {
     float: left;
 
-    padding: 1.25em 1.5em 1.25em 0px;
+    padding: 2.75em 1.5em 2.75em 0px;
 }
 header.main nav ul li:last-child {
     padding-right: 0px;
 }
 header.main nav ul li a {
-    padding: 2px 0px 1px 5px;
+    padding-left: 5px;
 
     color: #E98300;
     text-decoration: none;
@@ -60,14 +59,18 @@ header.main nav ul li a:hover {
 header.main nav ul li a.current {
     color: #008542;
 }
-header.main nav ul li.vote a {
-   padding-right: 5px;
-   border-bottom: 1px solid #E98300;
+header.main nav ul li.vote {
+   padding: 0px;
+}
+header.main nav ul li.vote img {
+    height: 100px;
 }
 header.main nav ul li.facebook {
-    padding-top: .75em;
+    padding-top: 2.25em;
 }
-header.main nav ul li.facebook a:hover {
+header.main nav ul li.facebook a:hover,
+header.main nav ul li.vote a:hover {
+    padding-left: 5px;
     border-left: none;
 }
 
