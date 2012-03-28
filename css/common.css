@@ -142,6 +142,13 @@ header.main hgroup h1 strong {
     text-decoration: underline;
 }
 
+#vote-banner .content {
+   text-align: center;
+}
+#vote-banner .content img {
+   height: 120px;
+}
+
 /* main footer */
 footer.main {
     /* auto center */
